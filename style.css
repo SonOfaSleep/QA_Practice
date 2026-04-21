@@ -1,0 +1,52 @@
+/* Basic CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Comic Sans MS, cursive, sans-serif;
+    text-align: center;
+    line-height: 2.0;
+    color: #000000;
+    background-color: lightpink;
+    padding: 50px;
+    padding-bottom: 20px;
+}
+
+.my_button {
+    background-color: lightblue;
+    border: none;
+    color: black;
+    font-family: Comic Sans MS, cursive, sans-serif;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin: 10px 2px;
+    cursor: pointer;
+}
+
+.my_button:hover {
+    background-color: lightcoral;
+}
+
+h1, h2, h3 {
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/*.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    background: lightpink;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
